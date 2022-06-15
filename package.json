@@ -1,0 +1,69 @@
+{
+  "name": "rubberduckheader",
+  "displayName": "Rubberduck Header",
+  "description": "RubberduckEngine header for VSCode : www.rubberduckengine.com",
+  "version": "0.42.7",
+  "publisher": "42Kwak",
+  "icon": "42.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kube/vscode-42header"
+  },
+  "bugs": {
+    "url": "https://github.com/kube/vscode-42header/issues"
+  },
+  "homepage": "https://github.com/kube/vscode-42header",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.6.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/src/extension",
+  "contributes": {
+    "configuration": {
+      "properties": {
+        "rubberduckheader.username": { 
+          "type": "string",
+          "description": "Username to use in Rubberduck headers"
+        },
+        "rubberduckheader.email": { 
+          "type": "string",
+          "description": "Email address to use in Rubberduck headers"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "rubberduckheader.insertHeader",
+        "title": "add RubberduckEngine header to the active file",
+        "when": "editorTextFocus"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "rubberduckheader.insertHeader",
+        "key": "ctrl+alt+h",
+        "mac": "cmd+alt+h",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.51",
+    "typescript": "^2.0.3",
+    "vscode": "^1.0.0"
+  },
+  "dependencies": {
+    "moment": "^2.15.0"
+  }
+}
