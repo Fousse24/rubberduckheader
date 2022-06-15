@@ -1,23 +1,27 @@
-<img
-  src="https://raw.githubusercontent.com/kube/vscode-42header/master/42.png" 
-  width=128>
 
-# 42 Header for VSCode
+# Rubberduck Engine Header for VSCode
 
-This extension provides the 42 header integration in VS Code.
+This extension provides the rubberduck engine header integration in VS Code.
+This is very heavily based on https://github.com/kube/vscode-42header.
 
 ```bash
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    vscode-42header                                    :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: kube <hello@kube.io>                       +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2013/11/18 13:37:42 by kube              #+#    #+#              #
-#    Updated: 2016/09/18 13:11:04 by kube             ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
+*********************************************************************************
+*                  *#########                                                   *
+*                 ##........../##           KWAK!                               *
+*               *#,.......,##....#######  /                                     *
+*               ##........./....##////##                                        *
+*     ##          ##...........,##((#                                           *
+*    #.###/        ##,..........*                                               *
+*   #(.....(######(###*........,##                                              *
+*  ##.............................##      File    : README                      *
+*  ##.    __       __  o       __  ##                                           *
+*  ##.   |_  |\\ | | __ | |\\ | |_    *#.   Created : Fousse24                    *
+*   ##   |__ | \\| |__| | | \\| |__   ,#,             15/06/2022                  *
+*    ##.............................##                                          *
+*     /##........................*##      Updated : Fousse24                    *
+*        ###/................*###.                  15/06/2022                  *
+*             ##############.                                                   *
+*********************************************************************************
 ```
 
 ## Install
@@ -48,11 +52,6 @@ To override these values, specify these properties in *User Settings* :
   "rubberduckheader.email": string
 }
 ```
-
-
-## Issues
-
-In case of a bug, or missing feature, please create a [Github Pull Request](https://github.com/kube/vscode-42header/pulls).
 
 ## License
 

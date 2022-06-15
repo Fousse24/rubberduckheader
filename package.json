@@ -2,17 +2,17 @@
   "name": "rubberduckheader",
   "displayName": "Rubberduck Header",
   "description": "RubberduckEngine header for VSCode : www.rubberduckengine.com",
-  "version": "0.42.7",
-  "publisher": "42Kwak",
-  "icon": "42.png",
+  "version": "1.0.1",
+  "publisher": "Fousse",
+  "icon": "duck_icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kube/vscode-42header"
+    "url": "https://github.com/Fousse24/rubberduckheader"
   },
   "bugs": {
-    "url": "https://github.com/kube/vscode-42header/issues"
+    "url": "https://github.com/Fousse24/rubberduckheader/issues"
   },
-  "homepage": "https://github.com/kube/vscode-42header",
+  "homepage": "https://github.com/Fousse24/rubberduckheader",
   "license": "MIT",
   "engines": {
     "vscode": "^1.6.0"
@@ -47,8 +47,8 @@
     "keybindings": [
       {
         "command": "rubberduckheader.insertHeader",
-        "key": "ctrl+alt+h",
-        "mac": "cmd+alt+h",
+        "key": "ctrl+alt+r",
+        "mac": "cmd+alt+r",
         "when": "editorTextFocus"
       }
     ]
